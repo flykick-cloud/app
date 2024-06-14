@@ -49,6 +49,7 @@
     "*.{js,css,md}": "prettier --write"
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^4.18.0"
+    "@rollup/rollup-linux-x64-gnu": "^4.18.0",
+    "@rollup/rollup-win32-x64-msvc": "^4.18.0"
   }
 }
