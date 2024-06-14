@@ -19,6 +19,9 @@ branches:
         strict: true
         contexts:
           - 'Test'
+          - 'Windows'
+          - 'Linux'
+          - 'Mac'
           - 'CodeQL'
           - 'Analyze (javascript-typescript)'
       enforce_admins: true
