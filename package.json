@@ -23,11 +23,17 @@
     "@electron-forge/plugin-vite": "^7.4.0",
     "@electron/fuses": "^1.8.0",
     "@types/electron-squirrel-startup": "^1.0.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
+    "@vitejs/plugin-react": "^4.3.1",
     "electron": "31.0.1",
+    "electron-react-devtools": "^0.5.3",
     "eslint": "^8.0.1",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.25.0",
+    "eslint-plugin-react": "^7.34.2",
     "husky": ">=6",
     "lint-staged": ">=10",
     "prettier": "^3.3.2",
@@ -42,7 +48,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.1"
+    "electron-squirrel-startup": "^1.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "lint-staged": {
     "*.{ts,tsx}": "eslint --cache --fix --max-warnings 0",

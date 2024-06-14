@@ -28,6 +28,9 @@ jobs:
       - name: Check linting
         run: npx eslint --max-warnings 0 .
 
+      - name: Check typing
+        run: npx tsc
+
   windows:
     name: Windows
     runs-on: windows-latest
